@@ -4,12 +4,11 @@ export const HeaderWrapper = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; /* Adapte o padding conforme necessário */
 `;
 
 export const Logo = styled.img`
-    width: 15vw; /* Ajuste o tamanho da logo conforme necessário */
-    height: 18vh;
+    width: 10vw; /* Ajuste o tamanho da logo conforme necessário */
+    height: 20vh;
     margin-left: 10vw; /* Distância da borda direita */
     transform: rotate(-13deg); /* Rotação de -13 graus */
 `;
