@@ -1,16 +1,13 @@
 import React from "react";
-import Footer from "../Footer/Footer";
-import MainHeader from "../MainHeader/MainHeader";
-import { BigImageContainer, BodyContainer, ImageArteNaPraca, Images, ImagesContainer, LeftSide, PostText, PostTitle, RightSide } from "./styles";
+import { BigImageContainer, BodyContainer, ImageArteNaPraca, Images, ImagesContainer, LeftSide, PostText, PostTitle, RightSide, SidesContainer } from "./styles";
 
 const Layout = ({ imageUrl, alt, titlePost, paragraphs, images }) => {
     return (
-      <div>
-        <MainHeader />
+      <BodyContainer>
         <BigImageContainer>
             <ImageArteNaPraca src={imageUrl} alt={alt} />
         </BigImageContainer>
-        <BodyContainer>
+        <SidesContainer>
             {/* Lado esquerdo */}
             <LeftSide>
                 <PostTitle>{titlePost}</PostTitle>
@@ -28,10 +25,8 @@ const Layout = ({ imageUrl, alt, titlePost, paragraphs, images }) => {
               ))}
               </ImagesContainer>
             </RightSide>
-        </BodyContainer>
-
-        <Footer />
-      </div>
+        </SidesContainer>
+      </BodyContainer>
     );
   };
   

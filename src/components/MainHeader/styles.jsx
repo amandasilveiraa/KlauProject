@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 export const HeaderWrapper = styled.header`
+    position: fixed;
+    width: 100%;
+    height: 20vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    background-color: white;
 `;
 
 export const Logo = styled.img`
@@ -45,9 +48,6 @@ export const LastButton = styled.button`
       }
 `;
 
-//   &:hover {
-//     background-color: #777; /* Cor de fundo do botão ao passar o mouse */
-//   }
 // border-bottom: 1px solid #121212; 
 //   button{
 //         box-shadow: black;

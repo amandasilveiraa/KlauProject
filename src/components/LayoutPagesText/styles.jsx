@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const BodyContainer = styled.div`
+  padding: 25vh 0 0 0;
+`
+
 // Estilizando a div que conterá a imagem
 export const BigImageContainer = styled.div`
   margin-right: 0.7vw;
@@ -14,7 +18,7 @@ export const ImageArteNaPraca = styled.img`
   object-fit: cover; /* Ajusta a imagem para cobrir todo o conteúdo do card */
 `;
 
-export const BodyContainer = styled.div`
+export const SidesContainer = styled.div`
   margin: 8vw; /* Centraliza o conteúdo e adiciona espaçamento */
   margin-top: 4vh;
   // max-width: 1200px; /* Define a largura máxima */

@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../../components/LayoutPagesBody/LayoutPagesBody";
+import Layout from "../../components/LayoutPagesText/LayoutPagesText";
 import ArteBigFoto from "../../assets/ArteNaPracaBig.jpg";
 import ImagesPraca from "../../assets/TesteImgPraca.jpg"
 import ImagesArteNaPraca2 from "../../assets/Teste2ArtePraca.jpg"

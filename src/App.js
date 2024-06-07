@@ -1,5 +1,7 @@
 import { GlobalStyle } from './GlobalStyle';
-import ArteNaPraca from './pages/ArteNaPraca/ArteNaPraca';
+import Footer from './components/Footer/Footer';
+import MainHeader from './components/MainHeader/MainHeader';
+import Artista from './pages/Artista/Artista';
 
 function App() {
   return (
@@ -10,7 +12,11 @@ function App() {
       {/* Navegation */}
 
       {/* Content */}
-      <ArteNaPraca />
+      <MainHeader />
+
+      <Artista />
+
+      <Footer />
 
     </div>
   );
