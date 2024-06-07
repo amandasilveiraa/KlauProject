@@ -1,5 +1,5 @@
 import { GlobalStyle } from './GlobalStyle';
-import Artista from './pages/Artista/Artista';
+import ArteNaPraca from './pages/ArteNaPraca/ArteNaPraca';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       {/* Navegation */}
 
       {/* Content */}
-      <Artista />
+      <ArteNaPraca />
 
     </div>
   );
