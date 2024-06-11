@@ -1,10 +1,10 @@
 import React from "react";
-import Layout from "../../components/LayoutPagesText/LayoutPagesText";
-import BigBiografia from "../../assets/Texts/Big/BigBiografia.jpg";
+import Layout from "../../../components/LayoutPagesText/LayoutPagesText";
+import BigBiografia from "../../../assets/Texts/Big/BigBiografia.jpg";
 
-import SmallBiografia1 from "../../assets/Texts/Small/Biografia/SmallBiografia1.jpg";
-import SmallBiografia2 from "../../assets/Texts/Small/Biografia/SmallBiografia2.jpg";
-import SmallBiografia3 from "../../assets/Texts/Small/Biografia/SmallBiografia3.jpg";
+import SmallBiografia1 from "../../../assets/Texts/Small/Biografia/SmallBiografia1.jpg";
+import SmallBiografia2 from "../../../assets/Texts/Small/Biografia/SmallBiografia2.jpg";
+import SmallBiografia3 from "../../../assets/Texts/Small/Biografia/SmallBiografia3.jpg";
 
 const Biografia = () => {
 

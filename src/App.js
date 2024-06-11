@@ -1,7 +1,7 @@
 import { GlobalStyle } from './GlobalStyle';
 import Footer from './components/Footer/Footer';
 import MainHeader from './components/MainHeader/MainHeader';
-import MaisAcoes from './pagesLayoutSquare/MaisAcoes/MaisAcoes';
+import MaisAcoes from './pages/pagesLayoutSquare/MaisAcoes/MaisAcoes';
 
 function App() {
   return (
