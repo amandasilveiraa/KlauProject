@@ -1,8 +1,12 @@
 import React from "react";
 import { BigImageContainer, BodyContainer, ImageArteNaPraca, Images, ImagesContainer, LeftSide, PostText, PostTitle, RightSide, SidesContainer } from "./styles";
+import MainHeader from "../MainHeader/MainHeader";
+import Footer from "../Footer/Footer";
 
 const Layout = ({ imageUrl, alt, titlePost, paragraphs, images }) => {
     return (
+      <div>
+      <MainHeader />
       <BodyContainer>
         <BigImageContainer>
             <ImageArteNaPraca src={imageUrl} alt={alt} />
@@ -27,6 +31,8 @@ const Layout = ({ imageUrl, alt, titlePost, paragraphs, images }) => {
             </RightSide>
         </SidesContainer>
       </BodyContainer>
+      <Footer />
+      </div>
     );
   };
   

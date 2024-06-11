@@ -12,11 +12,8 @@ function App() {
       {/* Navegation */}
 
       {/* Content */}
-      <MainHeader />
 
       <MaisAcoes />
-
-      <Footer />
 
     </div>
   );
