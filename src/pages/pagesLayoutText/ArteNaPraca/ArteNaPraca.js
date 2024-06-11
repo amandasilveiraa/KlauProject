@@ -2,8 +2,8 @@ import React from "react";
 import Layout from "../../components/LayoutPagesText/LayoutPagesText";
 import BigArteNaPraca from "../../assets/Texts/Big/BigArteNaPraca.jpg";
 
-import ImagesPraca from "../../assets/Texts/Small/ArteNaPracaEventos.jpg";
-import ImagesArteNaPraca2 from "../../assets/Texts/Small/ArteNaPracaEventos.jpg";
+import ImagesPraca from "../../assets/Texts/Small/ArteNaPraca/ArteNaPracaEventos.jpg";
+import ImagesArteNaPraca2 from "../../assets/Texts/Small/ArteNaPraca/ArteNaPracaEventos.jpg";
 
 const ArteNaPraca = () => {
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import LayoutPagesSquare from '../../components/LayoutPagesSquare/LayoutPagesSquare';
+import LayoutPagesSquare from '../../../components/LayoutPagesSquare/LayoutPagesSquare';
 import Aniversarios from '../../assets/Squares/MaisAcoes/MaisAcoesAniversarios.jpg'
 import Escolas from '../../assets/Squares/MaisAcoes/MaisAcoesEscolas.jpg';
 import ArtePublica from '../../assets/Squares/MaisAcoes/MaisAcoesAniversarios.jpg';
