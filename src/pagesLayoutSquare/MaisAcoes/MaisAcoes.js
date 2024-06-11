@@ -1,9 +1,9 @@
 import React from 'react';
 import LayoutPagesSquare from '../../components/LayoutPagesSquare/LayoutPagesSquare';
-import Aniversarios from '../../assets/MaisAcoesAniversarios.jpg'
-import Escolas from '../../assets/MaisAcoesEscolas.jpg'
-import ArtePublica from '../../assets/ArtistaBiografia.jpg'
-import Ebook from '../../assets/ArtistaBiografia.jpg'
+import Aniversarios from '../../assets/Squares/MaisAcoes/MaisAcoesAniversarios.jpg'
+import Escolas from '../../assets/Squares/MaisAcoes/MaisAcoesEscolas.jpg';
+import ArtePublica from '../../assets/Squares/MaisAcoes/MaisAcoesAniversarios.jpg';
+import Ebook from '../../assets/Squares/MaisAcoes/MaisAcoesAniversarios.jpg';
 
 const cardsData = [
     { imageUrl: Aniversarios, title: 'ANIVERSÁRIOS' },

@@ -1,8 +1,9 @@
 import React from "react";
 import Layout from "../../components/LayoutPagesText/LayoutPagesText";
-import ArteBigFoto from "../../assets/ArteNaPracaBig.jpg";
-import ImagesPraca from "../../assets/TesteImgPraca.jpg"
-import ImagesArteNaPraca2 from "../../assets/Teste2ArtePraca.jpg"
+import BigArteNaPraca from "../../assets/Texts/Big/BigArteNaPraca.jpg";
+
+import ImagesPraca from "../../assets/Texts/Small/ArteNaPracaEventos.jpg";
+import ImagesArteNaPraca2 from "../../assets/Texts/Small/ArteNaPracaEventos.jpg";
 
 const ArteNaPraca = () => {
 
@@ -19,7 +20,7 @@ const ArteNaPraca = () => {
 
     return (
       <div>
-        <Layout imageUrl={ArteBigFoto} alt={"Foto grande da arte na praça"}
+        <Layout imageUrl={BigArteNaPraca} alt={"Foto grande da arte na praça"}
         titlePost={"ARTE NA PRAÇA"}  paragraphs={paragraphs} images={images}/>
       </div>
     );

@@ -1,8 +1,6 @@
 import React from 'react';
 import { Button, ButtonContainer, HeaderWrapper, LastButton, Logo } from './styles';
-// import { Button, ButtonHome, ContainerHeader, Img } from "./styles";
-// import logoImg from "../../assets/klauLogo.png";
-import logoKlau from '../../assets/logoKlauOriginal.png'
+import logoKlau from '../../assets/Header/logoKlauOriginal.png'
 
 const MainHeader = () => {
 

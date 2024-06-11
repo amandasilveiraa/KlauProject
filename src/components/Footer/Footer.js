@@ -1,8 +1,8 @@
-import React from "react";
-import { DireitosAutorais, FooterWrapper, Icon, IconContainer } from "./styles";
-import facebook from "../../assets/facebook.png";
-import instagram from "../../assets/instagram.png";
-import whats from "../../assets/whatsapp.png";
+import React from 'react';
+import { DireitosAutorais, FooterWrapper, Icon, IconContainer } from './styles';
+import facebook from '../../assets/Footer/facebook.png';
+import instagram from '../../assets/Footer/instagram.png';
+import whats from '../../assets/Footer/whatsapp.png';
 
 const Footer = () => {
     // Função para redirecionar para o site correspondente ao clicar no ícone
