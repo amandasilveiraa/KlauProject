@@ -2,13 +2,13 @@ import styled from 'styled-components';
 
 
 export const CardMainConteiner = styled.div`
-  margin-bottom: 7vh; /* Espaçamento vertical entre os cards */
-
+  margin-bottom: 10vh; /* Espaçamento vertical entre os cards */
+  margin-right: 10px; /* Espaçamento horizontal entre os cards */
 `;
 
 export const CardWrapper = styled.div`
-  width: 27vw;
-  height: 40vh;
+  width: 28vw;
+  height: 38vh;
   overflow: hidden; /* Para garantir que a imagem não ultrapasse os limites do card */
   cursor: pointer; /* Cursor do mouse mudará para indicar que é clicável */
 

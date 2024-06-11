@@ -4,13 +4,12 @@ export const HeaderWrapper = styled.header`
     position: fixed;
     top: 0;
     width: 100%;
-    height: 20vh;
+    height: 18vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
     z-index: 1000; /* Garante que a header fique acima dos cards */
-
 `;
 
 export const Logo = styled.img`

@@ -1,18 +1,18 @@
 import React from 'react';
-import { CardsContainer } from './styles';
-import Card from '../../components/Card/Card';
-import Arte from "../../assets/exemploKlauProjeto.jpg";
-import Arte2 from "../../assets/exemploDoisKlauProjeto.jpg";
+import LayoutPagesSquare from '../../components/LayoutPagesSquare/LayoutPagesSquare';
+import ArtistaBiografia from '../../assets/ArtistaBiografia.jpg'
+
+const cardsData = [
+  { imageUrl: ArtistaBiografia, title: 'BIOGRAFIA' },
+  { imageUrl: ArtistaBiografia, title: 'PALESTRAS' },
+  { imageUrl: ArtistaBiografia, title: 'MÍDIA' },
+  { imageUrl: ArtistaBiografia, title: 'CRÍTICA' },
+];
 
 const Artista = () => {
   return (
     <div>
-      <CardsContainer>
-              <Card imageUrl={Arte} title="BIOGRAFIA"/>
-              <Card imageUrl={Arte2} title="ANIVERSÁRIOS"/>
-              <Card imageUrl={Arte} title="PALESTRAS"/>
-              <Card imageUrl={Arte2} title="FEEBACKS"/>
-      </CardsContainer>
+      <LayoutPagesSquare cardsData={cardsData} />
     </div>
   );
 };

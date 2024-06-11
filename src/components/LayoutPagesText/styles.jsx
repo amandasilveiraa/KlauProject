@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const BodyContainer = styled.div`
   padding: 25vh 0 0 0;
+  margin-bottom: 15vh;
 `
 
 // Estilizando a div que conterá a imagem

@@ -1,7 +1,7 @@
 import { GlobalStyle } from './GlobalStyle';
 import Footer from './components/Footer/Footer';
 import MainHeader from './components/MainHeader/MainHeader';
-import Artista from './pagesLayoutSquare/Artista/Artista';
+import MaisAcoes from './pagesLayoutSquare/MaisAcoes/MaisAcoes';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       {/* Content */}
       <MainHeader />
 
-      <Artista />
+      <MaisAcoes />
 
       <Footer />
 
