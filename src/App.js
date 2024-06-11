@@ -1,7 +1,7 @@
 import { GlobalStyle } from './GlobalStyle';
 import Footer from './components/Footer/Footer';
 import MainHeader from './components/MainHeader/MainHeader';
-import Artista from './pages/Artista/Artista';
+import Artista from './pagesLayoutSquare/Artista/Artista';
 
 function App() {
   return (

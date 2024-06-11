@@ -7,6 +7,7 @@ export const CardsContainer = styled.div`
     margin-left: 7vw;
     margin-right: 7vw;
     margin-top: 2vw;
+    padding-top: 25vh;
 `;
 
 

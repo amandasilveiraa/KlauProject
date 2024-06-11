@@ -8,11 +8,9 @@ const Artista = () => {
   return (
     <div>
       <CardsContainer>
-              <Card imageUrl={Arte} title="BIOGRAFIA"
-              />
+              <Card imageUrl={Arte} title="BIOGRAFIA"/>
               <Card imageUrl={Arte2} title="ANIVERSÁRIOS"/>
-              <Card imageUrl={Arte} title="PALESTRAS"
-              />
+              <Card imageUrl={Arte} title="PALESTRAS"/>
               <Card imageUrl={Arte2} title="FEEBACKS"/>
       </CardsContainer>
     </div>
