@@ -24,8 +24,8 @@ const Layout = ({ imageUrl, alt, titlePost, paragraphs, images }) => {
             <RightSide>
               <ImagesContainer>
                 {/* <Images src= {images} alt="Imagens"/> */}
-                {images.map((image) => (
-                <Images src={image} alt="Imagens do evento Arte na Praça" />
+                {images.map((image, index) => (
+                <Images key={index} src={image} alt="Imagens do evento Arte na Praça" />
               ))}
               </ImagesContainer>
             </RightSide>

@@ -16,6 +16,7 @@ export const Logo = styled.img`
     width: 10vw; /* Ajuste o tamanho da logo conforme necessário */
     height: 20vh;
     margin-left: 10vw; /* Distância da borda direita */
+    padding-top: 1vh;
     transform: rotate(-13deg); /* Rotação de -13 graus */
 `;
 

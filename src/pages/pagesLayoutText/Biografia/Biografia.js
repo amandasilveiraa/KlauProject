@@ -9,9 +9,9 @@ import SmallBiografia3 from "../../../assets/Texts/Small/Biografia/SmallBiografi
 const Biografia = () => {
 
   const paragraphs = [
-    "Klau Brentano vive e trabalha em São Paulo. Estudou na Faculdade de Artes Plásticas da Fundação Armando Álvares Penteado (FAAP) onde teve aulas com o artista Nelson Leirner e o fotógrafo Eduardo Brandão. Inicia a carreira com a linguagem de pintura nos anos 90, recebendo o Prêmio Michelângelo de Pintura Contemporânea no Centro Cultural de São Paulo (1996), Prêmio Bolsa de Estudo na Anual de Artes da FAAP (1997), Prêmio Salão de Arte Contemporânea de São Bernardo do Campo (2002), Prêmio na 9ª Bienal de Santos (2004) e Prêmio Revelação de Artes Plásticas no Museu de Arte Contemporânea de Americana (2003).",
-    "Formada por uma réplica de carruagem imperial e quatro cavalos esculpidos em escala real, a intervenção foi instalada a mais de 30 metros de altura sobre a ponte Octávio Frias de Oliveira na marginal Pinheiros, em São Paulo.",
-    "A  obra comparava a velocidade média de deslocamento de um carro no trânsito paulistano, durante o horário de pico, com a velocidade de uma carruagem nos tempos do Império quando o asfalto sequer existia. Ambos se movimentam a lentos 20 quilômetros por hora."
+    "Sou a Kláu, ( ou Cláudia Helena como diria dona Neni, minha mãe) artista plástica e arte educadora, especializada em educ. inclusiva. Participei de grupos de Arte e projetos que foram para outros países. Tenho trabalhos em instituições e exposições coletivas no RS. Me graduei na Feevale NH, foi um longo (e feliz) caminho. Atuei em escolas públicas, particulares e em projetos sociais e educacionais paralelos a Arteterapia.",
+    "A arte foi entrando na minha vida devagarinho e eu pensava: de onde vem isso? Um olhar mais atento à família e numa conversa com meu pai, que hoje não está mais por aqui fisicamente, descobri que ele fazia tricô com a madrinha; do seu gosto pelo teatro eu já sabia, e que a mãe dele colava gravuras recortadas de papel de presente na parede para decorar! Meus primos tocam violão e lembrei que minha tia e meu pai quando se juntavam, até declamação com fundo de violão saía...gente era um Sarau! E escrevendo vou recordando muita coisa de criança “arteira”. Sobre o ensino ... tenho muitas primas dedicadas ao magistério a sua vida toda... e então realmente a fruta não caiu tãooo longe do pé assim como eu pensava.",
+    "Atualmente dedico-me exclusivamente ao trabalho no Klau Brentano Atelier de Arte, um espaço que tem mais de 15 anos, em São Leopoldo onde realizo oficinas, com foco nas Férias Escolares, propondo atividades artísticas e lúdicas no período de recesso escolar. Durante o ano ocorrem oficinas, aulas, painting parties para mulheres e aulas de arte para educadores/as."
   ];
 
   const images = [
@@ -23,7 +23,7 @@ const Biografia = () => {
     return (
       <div>
         <Layout imageUrl={BigBiografia} alt={"Foto grande da arte na praça"}
-        titlePost={"A ARTE INSPIRA"}  paragraphs={paragraphs} images={images}/>
+        titlePost={"UM DIA DE SOL É UM CONVITE"}  paragraphs={paragraphs} images={images}/>
       </div>
     );
   };

@@ -6,6 +6,6 @@ export const LayoutContainer = styled.div`
   justify-content: space-between;
   margin-left: 5.5vw;
   margin-right: 5.5vw;
-  padding-top: 25vh;
+  padding-top: 22vh;
   margin-bottom: 15vh;
 `;

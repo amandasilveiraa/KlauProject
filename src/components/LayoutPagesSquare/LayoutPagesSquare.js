@@ -8,10 +8,10 @@ const LayoutPagesSquare = ({ cardsData }) => {
   return (
     <div>
       <MainHeader />
-    <LayoutContainer>
-      {cardsData.map((card, index) => (
-        <Card key={index} imageUrl={card.imageUrl} title={card.title} />
-      ))}
+      <LayoutContainer>
+        {cardsData.map((card, index) => (
+          <Card key={index} imageUrl={card.imageUrl} title={card.title} linkUrl={card.linkUrl} />
+        ))}
     </LayoutContainer>
     <Footer />
     </div>

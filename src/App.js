@@ -1,7 +1,5 @@
 import { GlobalStyle } from './GlobalStyle';
-import Footer from './components/Footer/Footer';
-import MainHeader from './components/MainHeader/MainHeader';
-import MaisAcoes from './pages/pagesLayoutSquare/MaisAcoes/MaisAcoes';
+import RoutesSquare from './routers/routesPagesSquare/routesPagesSquare';
 
 function App() {
   return (
@@ -13,7 +11,7 @@ function App() {
 
       {/* Content */}
 
-      <MaisAcoes />
+      <RoutesSquare />
 
     </div>
   );

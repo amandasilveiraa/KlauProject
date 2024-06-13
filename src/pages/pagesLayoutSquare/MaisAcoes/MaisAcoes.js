@@ -6,10 +6,10 @@ import ArtePublica from '../../../assets/Squares/MaisAcoes/MaisAcoesAniversarios
 import Ebook from '../../../assets/Squares/MaisAcoes/MaisAcoesAniversarios.jpg';
 
 const cardsData = [
-    { imageUrl: Aniversarios, title: 'ANIVERSÁRIOS' },
-    { imageUrl: Escolas, title: 'ESCOLAS' },
-    { imageUrl: ArtePublica, title: 'ARTE PÚBLICA' },
-    { imageUrl: Ebook, title: 'E-BOOK' },
+    { imageUrl: Aniversarios, title: 'ANIVERSÁRIOS', linkUrl: '/artenapraca' },
+    { imageUrl: Escolas, title: 'ESCOLAS', linkUrl: '/artenapraca' },
+    { imageUrl: ArtePublica, title: 'ARTE PÚBLICA', linkUrl: '/artenapraca' },
+    { imageUrl: Ebook, title: 'E-BOOK', linkUrl: '/artenapraca' },
 ];
 
 const MaisAcoes = () => {

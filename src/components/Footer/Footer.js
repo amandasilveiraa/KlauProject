@@ -10,13 +10,13 @@ const Footer = () => {
       // Coloque aqui os links dos sites correspondentes
       switch (site) {
         case 'facebook':
-          window.location.href = 'https://pt-br.facebook.com/www.klaubrentano/';
+          window.open('https://pt-br.facebook.com/www.klaubrentano/', '_blank', 'noopener,noreferrer');
           break;
         case 'instagram':
-          window.location.href = 'https://www.instagram.com/klaubrentanoartes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==';
+          window.open('https://www.instagram.com/klaubrentanoartes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', '_blank', 'noopener,noreferrer');
           break;
         case 'whatsapp':
-          window.location.href = 'https://pt-br.facebook.com/www.klaubrentano/';
+          window.open('https://pt-br.facebook.com/www.klaubrentano/', '_blank', 'noopener,noreferrer');
           break;
         default:
           break;

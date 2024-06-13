@@ -1,24 +1,17 @@
 import React from 'react';
-// import { useHistory } from 'react-router-dom';
-import { CardImage, CardMainConteiner, CardTitle, CardWrapper } from './styles';
+import { CardImage, CardMainConteiner, CardTitle, CardWrapper, StyledLink } from './styles';
 
-const Card = ({ imageUrl, title }) => {
-    // const history = useHistory();
-  
-    // Função para redirecionar para a página de destino ao clicar no card
-    // const handleClick = () => {
-    //   history.push(destinationUrl);
-    // };
-  
+const Card = ({ imageUrl, title, linkUrl }) => {
     return (
-        <CardMainConteiner>
-            <CardWrapper>
-                <CardImage src={imageUrl} alt={title} />
-            </CardWrapper>
-            <CardTitle>{title}</CardTitle>
-        </CardMainConteiner>
-
+      <CardMainConteiner>
+        <StyledLink to={linkUrl}>
+          <CardWrapper>
+            <CardImage src={imageUrl} alt={title} />
+          </CardWrapper>
+          <CardTitle>{title}</CardTitle>
+        </StyledLink>
+      </CardMainConteiner>
     );
-  };
+};
   
-  export default Card;
+export default Card;

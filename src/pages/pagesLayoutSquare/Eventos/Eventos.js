@@ -8,12 +8,12 @@ import YazigiFamilyDay from '../../../assets/Squares/Eventos/EventosYazigiFamily
 import SarauDoRio from '../../../assets/Squares/Eventos/EventosSarauDoRio.jpg'
 
 const cardsData = [
-  { imageUrl: ArteNaPraca, title: 'ARTE NA PRAÇA' },
-  { imageUrl: SaoLeoOpen, title: 'SÃO LEO OPEN' },
-  { imageUrl: ParqueImperatriz, title: 'PARQUE IMPERATRIZ' },
-  { imageUrl: NatalNaScharlau, title: 'NATAL NA SCHARLAU' },
-  { imageUrl: YazigiFamilyDay, title: 'YÁZIGI FAMILY DAY' },
-  { imageUrl: SarauDoRio, title: 'SARAU DO RIO' },
+  { imageUrl: ArteNaPraca, title: 'ARTE NA PRAÇA', linkUrl: '/artenapraca' },
+  { imageUrl: SaoLeoOpen, title: 'SÃO LEO OPEN', linkUrl: '/artenapraca' },
+  { imageUrl: ParqueImperatriz, title: 'PARQUE IMPERATRIZ', linkUrl: '/artenapraca' },
+  { imageUrl: NatalNaScharlau, title: 'NATAL NA SCHARLAU', linkUrl: '/artenapraca' },
+  { imageUrl: YazigiFamilyDay, title: 'YÁZIGI FAMILY DAY', linkUrl: '/artenapraca' },
+  { imageUrl: SarauDoRio, title: 'SARAU DO RIO', linkUrl: '/artenapraca' },
 ];
 
 const Eventos = () => {

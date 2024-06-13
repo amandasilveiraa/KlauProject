@@ -1,5 +1,10 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
+export const StyledLink = styled(Link)`
+  text-decoration: none; /* Remove o sublinhado */
+  color: inherit; /* Mantém a cor do texto original */
+`;
 
 export const CardMainConteiner = styled.div`
   margin-bottom: 10vh; /* Espaçamento vertical entre os cards */
@@ -40,7 +45,7 @@ export const CardTitle = styled.p`
   font-size: 19px;
   font-weight: 600;
 
-  transition: color 0.3s ease; /* Animação de transição suave */
+  transition: color 0.1s ease; /* Animação de transição suave */
   
   &:hover {
     color: #FFA500; /* Cor laranja ao passar o mouse */
