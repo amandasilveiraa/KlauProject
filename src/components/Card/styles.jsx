@@ -9,6 +9,11 @@ export const StyledLink = styled(Link)`
 export const CardMainConteiner = styled.div`
   margin-bottom: 10vh; /* Espaçamento vertical entre os cards */
   margin-right: 10px; /* Espaçamento horizontal entre os cards */
+
+  @media (max-width: 768px) {
+    margin-bottom: 20px; /* Espaçamento maior em telas menores */
+    margin-right: 0; /* Remove a margem à direita em telas menores */
+  }
 `;
 
 export const CardWrapper = styled.div`
@@ -22,6 +27,10 @@ export const CardWrapper = styled.div`
   align-items: center; /* Centralizando verticalmente */
   margin-bottom: 1vh;
 
+  @media (max-width: 768px) {
+    height: 35vh; /* Reduz a altura do card em telas menores */
+    width: 100%;
+  }
 `;
 
 export const CardImage = styled.img`
@@ -44,6 +53,10 @@ export const CardTitle = styled.p`
   cursor: pointer; /* Cursor do mouse mudará para indicar que é clicável */
   font-size: 19px;
   font-weight: 600;
+
+  @media (max-width: 768px) {
+    font-size: 14px; /* Reduz o tamanho da fonte em telas menores */
+  }
 
   transition: color 0.1s ease; /* Animação de transição suave */
   

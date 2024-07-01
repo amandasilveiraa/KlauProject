@@ -4,9 +4,8 @@ import ArtistaBiografia from '../../../assets/Squares/Artista/ArtistaBiografia.j
 
 const cardsData = [
   { imageUrl: ArtistaBiografia, title: 'BIOGRAFIA', linkUrl: '/biografia'},
-  { imageUrl: ArtistaBiografia, title: 'PALESTRAS', linkUrl: '/biografia'  },
   { imageUrl: ArtistaBiografia, title: 'MÍDIA', linkUrl: '/biografia'  },
-  { imageUrl: ArtistaBiografia, title: 'CRÍTICA', linkUrl: '/biografia'  },
+  { imageUrl: ArtistaBiografia, title: 'TRAJETÓRIAS', linkUrl: '/biografia'  },
 ];
 
 const Artista = () => {

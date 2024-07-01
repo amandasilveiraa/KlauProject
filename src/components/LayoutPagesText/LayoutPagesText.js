@@ -3,35 +3,33 @@ import { BigImageContainer, BodyContainer, ImageArteNaPraca, Images, ImagesConta
 import MainHeader from "../MainHeader/MainHeader";
 import Footer from "../Footer/Footer";
 
-const Layout = ({ imageUrl, alt, titlePost, paragraphs, images }) => {
+const Layout = ({ imageUrl, alt, titlePost, paragraphs, images, objectPosition }) => {
     return (
       <div>
-      <MainHeader />
-      <BodyContainer>
-        <BigImageContainer>
-            <ImageArteNaPraca src={imageUrl} alt={alt} />
-        </BigImageContainer>
-        <SidesContainer>
+        <MainHeader />
+        <BodyContainer>
+          <BigImageContainer>
+            <ImageArteNaPraca src={imageUrl} alt={alt} objectPosition={objectPosition}/>
+          </BigImageContainer>
+          <SidesContainer>
             {/* Lado esquerdo */}
             <LeftSide>
-                <PostTitle>{titlePost}</PostTitle>
-                {paragraphs.map((paragraph, index) => (
+              <PostTitle>{titlePost}</PostTitle>
+              {paragraphs.map((paragraph, index) => (
                 <PostText key={index}>{paragraph}</PostText>
               ))}
             </LeftSide>
-
             {/* Lado direito */}
             <RightSide>
               <ImagesContainer>
-                {/* <Images src= {images} alt="Imagens"/> */}
                 {images.map((image, index) => (
-                <Images key={index} src={image} alt="Imagens do evento Arte na Praça" />
-              ))}
+                  <Images key={index} src={image.src} alt="Imagens do evento Arte na Praça" objectPosition={image.objectPosition}/>
+                ))}
               </ImagesContainer>
             </RightSide>
-        </SidesContainer>
-      </BodyContainer>
-      <Footer />
+          </SidesContainer>
+        </BodyContainer>
+        <Footer />
       </div>
     );
   };

@@ -2,8 +2,8 @@ import React from "react";
 import Layout from "../../../components/LayoutPagesText/LayoutPagesText";
 import BigArteNaPraca from "../../../assets/Texts/Big/BigArteNaPraca.jpg";
 
-import ImagesPraca from "../../../assets/Texts/Small/ArteNaPraca/ArteNaPracaEventos.jpg";
-import ImagesArteNaPraca2 from "../../../assets/Texts/Small/ArteNaPraca/ArteNaPracaEventos.jpg";
+import ImagesPraca from "../../../assets/Texts/Small/ArteNaPraca/SmallArteNaPraca.jpg";
+import ImagesArteNaPraca2 from "../../../assets/Texts/Small/ArteNaPraca/SmallArteNaPraca.jpg";
 
 const ArteNaPraca = () => {
 
@@ -14,14 +14,19 @@ const ArteNaPraca = () => {
   ];
 
   const images = [
-    ImagesPraca,
-    ImagesArteNaPraca2
+    { src: ImagesPraca, objectPosition: '50% 80%' },
+    { src: ImagesArteNaPraca2, objectPosition: '50% 70%' },
+    { src: ImagesArteNaPraca2, objectPosition: '50% 70%' }
   ];
 
     return (
       <div>
-        <Layout imageUrl={BigArteNaPraca} alt={"Foto grande da arte na praça"}
-        titlePost={"ARTE NA PRAÇA"}  paragraphs={paragraphs} images={images}/>
+        <Layout imageUrl={BigArteNaPraca} 
+        alt={"Foto grande das crianças pintando na escola"} 
+        objectPosition="50% 50%"
+        titlePost={"UM DIA DE SOL É UM CONVITE"} 
+        paragraphs={paragraphs} 
+        images={images}/>
       </div>
     );
   };

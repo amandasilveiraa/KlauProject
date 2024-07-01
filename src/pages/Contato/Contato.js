@@ -17,7 +17,7 @@ function Contato() {
         ]}
         phoneNumber="+(51) 98478-0316"
         email="klau.brentano@hotmail.com"
-        googleMapsSrc="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1718298000437!5m2!1spt-BR!2sbr!6m8!1m7!1sXLmZSlI9QsrguTNKAplNmg!2m2!1d-29.7358176391226!2d-51.15110145164017!3f310.7517695308584!4f-7.640277274096633!5f0.7820865974627469"
+        googleMapsSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.4470871952635!2d-51.15383032520437!3d-29.73577141703002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519429c5afd3b61%3A0x27b2c9b44fe55b1d!2sKl%C3%A1u%20Brentano%20Atelier%20de%20Arte!5e0!3m2!1spt-BR!2sbr!4v1718487737737!5m2!1spt-BR!2sbr"
         secondImage={SmallContato}
       />
     </div>

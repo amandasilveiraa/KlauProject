@@ -7,6 +7,7 @@ import Biografia from "../../pages/pagesLayoutText/Biografia/Biografia";
 import ArteNaPraca from "../../pages/pagesLayoutText/ArteNaPraca/ArteNaPraca";
 import Galeria from "../../pages/pagesLayoutSquare/Galeria/Galeria";
 import Contato from "../../pages/Contato/Contato";
+import Escolas from "../../pages/pagesLayoutText/Escolas/Escolas";
 
 function RoutesSquare() {
     return (
@@ -23,6 +24,7 @@ function RoutesSquare() {
                 {/* LayoutPagesSquare routes */}
                 <Route path="/artenapraca" element={<ArteNaPraca />} />
                 <Route path="/biografia" element={<Biografia />} />
+                <Route path="/escolas" element={<Escolas />} />
             </Routes>
         </BrowserRouter>
     );

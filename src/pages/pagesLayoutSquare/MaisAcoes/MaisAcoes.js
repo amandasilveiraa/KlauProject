@@ -7,9 +7,12 @@ import Ebook from '../../../assets/Squares/MaisAcoes/MaisAcoesAniversarios.jpg';
 
 const cardsData = [
     { imageUrl: Aniversarios, title: 'ANIVERSÁRIOS', linkUrl: '/artenapraca' },
-    { imageUrl: Escolas, title: 'ESCOLAS', linkUrl: '/artenapraca' },
-    { imageUrl: ArtePublica, title: 'ARTE PÚBLICA', linkUrl: '/artenapraca' },
-    { imageUrl: Ebook, title: 'E-BOOK', linkUrl: '/artenapraca' },
+    { imageUrl: Escolas, title: 'ESCOLAS', linkUrl: '/escolas' },
+    { imageUrl: ArtePublica, title: 'EVENTOS COORPORATIVOS', linkUrl: '/artenapraca' },
+    { imageUrl: ArtePublica, title: 'FESTAS MUNICIPAIS', linkUrl: '/artenapraca' },
+    { imageUrl: Ebook, title: 'ARTES NAS FÉRIAS', linkUrl: '/artenapraca' },
+    { imageUrl: Ebook, title: 'YÁZIGI FAMILY DAY', linkUrl: '/artenapraca' },
+
 ];
 
 const MaisAcoes = () => {

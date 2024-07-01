@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
+
 
 export const HeaderWrapper = styled.header`
     position: fixed;
@@ -51,30 +53,60 @@ export const LastButton = styled.button`
       }
 `;
 
-// border-bottom: 1px solid #121212; 
-//   button{
-//         box-shadow: black;
-//         margin: 0 16px;
-//         background-color: black;
-//         color: white;
-//         padding: 0 16px;
-//         border: 1px solid #1F001F;
-//         height: 56px;
-//         min-width: 2rem;
-//         transition: .5s ease-in-out;
-//         cursor: pointer;
-//         border-radius: 4px;
-//         font-size: 16px;
-//         opacity: 0.6;
-//     }
-//     button:hover{
-//         position: relative;
-//         background-color: #1F001F;
-//         padding: 0 36px;
-//         border-radius: 4px;
-//         opacity: 0.9;
-//     }
-//     button:active{
-//         background-color:#6959CD ;
-//         border-radius: 4px;
-//     }
+// Estilos para telas menores (mobile)
+export const HeaderWrapperMobile = styled.header`
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    z-index: 1000; /* Garante que a header fique acima dos cards */
+    display: none; /* Ocultar por padrão em telas menores */
+    
+    @media (max-width: 768px) {
+        display: flex; /* Mostrar apenas em telas menores que 768px */
+    }
+`;
+
+export const MobileLogo = styled.img`
+    width: 30%; /* Tamanho da logo como 30% da largura do header móvel */
+    height: auto; /* Altura automática para manter proporções */
+    margin-left: 10px; /* Espaçamento à esquerda */
+`;
+
+export const MobileMenuIcon = styled.div`
+    font-size: 2rem;
+    margin-right: 10vw; /* Espaçamento do ícone de menu */
+    cursor: pointer;
+`;
+
+export const MobileMenu = styled.div`
+    position: absolute;
+    top: 18vh; /* Ajuste a posição vertical do menu móvel conforme necessário */
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    display: none; /* Ocultar menu mobile por padrão */
+
+    @media (max-width: 768px) {
+        display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')}; /* Mostrar menu se isOpen for true */
+    }
+`;
+
+export const MobileMenuLink = styled(Link)`
+    margin: 1rem 0; /* Espaçamento entre os itens do menu */
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+    &:hover {
+        color: gray; /* Cor do texto ao passar o mouse */
+    }
+`;

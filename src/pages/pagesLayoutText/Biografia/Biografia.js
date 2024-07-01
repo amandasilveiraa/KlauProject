@@ -15,15 +15,19 @@ const Biografia = () => {
   ];
 
   const images = [
-    SmallBiografia1,
-    SmallBiografia2,
-    SmallBiografia3
+    { src: SmallBiografia1, objectPosition: '50% 60%' },
+    { src: SmallBiografia2, objectPosition: '50% 70%' },
+    { src: SmallBiografia3, objectPosition: '50% 70%' }
   ];
 
     return (
       <div>
-        <Layout imageUrl={BigBiografia} alt={"Foto grande da arte na praça"}
-        titlePost={"UM DIA DE SOL É UM CONVITE"}  paragraphs={paragraphs} images={images}/>
+        <Layout imageUrl={BigBiografia} 
+        alt={"Foto grande da artista"} 
+        objectPosition="50% 50%"
+        titlePost={"UM DIA DE SOL É UM CONVITE"} 
+        paragraphs={paragraphs} 
+        images={images}/>
       </div>
     );
   };
