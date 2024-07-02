@@ -10,20 +10,20 @@ const MainHeader = () => {
     setIsOpen(!isOpen);
   };
 
-    return (
-      <>
-        <HeaderWrapper>
-          <Link to="/"><Logo src={logoKlau} alt="Logo" /></Link>
-          <ButtonContainer>
-            <Link to="/artista"><Button>O ARTISTA</Button></Link>
-            <Link to="/eventos"><Button>EVENTOS</Button></Link>
-            <Link to="/galeria"><Button>GALERIA</Button></Link>
-            <Link to="/maisacoes"><Button>+ AÇÕES</Button></Link>
-          </ButtonContainer>
-          <Link to="/contato"><LastButton>CONTATO</LastButton></Link>
-        </HeaderWrapper>
+  return (
+    <>
+      <HeaderWrapper>
+        <Link to="/"><Logo src={logoKlau} alt="Logo" /></Link>
+        <ButtonContainer>
+          <Link to="/artista"><Button>O ARTISTA</Button></Link>
+          <Link to="/eventos"><Button>EVENTOS</Button></Link>
+          <Link to="/galeria"><Button>GALERIA</Button></Link>
+          <Link to="/maisacoes"><Button>+ AÇÕES</Button></Link>
+        </ButtonContainer>
+        <Link to="/contato"><LastButton>CONTATO</LastButton></Link>
+      </HeaderWrapper>
 
-        <HeaderWrapperMobile>
+      <HeaderWrapperMobile>
         <Link to="/"><MobileLogo src={logoKlau} alt="Logo" /></Link>
         <MobileMenuIcon onClick={toggleMenu}>&#9776;</MobileMenuIcon>
         <MobileMenu isOpen={isOpen}>
@@ -33,9 +33,9 @@ const MainHeader = () => {
           <MobileMenuLink to="/maisacoes" onClick={toggleMenu}>+ AÇÕES</MobileMenuLink>
           <MobileMenuLink to="/contato" onClick={toggleMenu}>CONTATO</MobileMenuLink>
         </MobileMenu>
-        </HeaderWrapperMobile>
-      </>
-      );
-}
-  
+      </HeaderWrapperMobile>
+    </>
+  );
+};
+
 export default MainHeader;

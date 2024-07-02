@@ -5,7 +5,8 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     margin: 0 2vw;
-    padding-top: 23vh;
+    padding-top: 17vh;
+
 `;
 
 export const StyledImageContainer = styled.div`
