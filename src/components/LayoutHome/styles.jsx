@@ -15,6 +15,10 @@ export const StyledImageContainer = styled.div`
     overflow: hidden;
     width: 100%;
     height: 100vh;
+
+    @media (max-width: 768px) {
+        height: 35vh;
+    }
 `;
 
 export const MainImage = styled.img`
@@ -29,6 +33,12 @@ export const StyledTextContainer = styled.div`
     align-items: center;
     margin-right: 20vw;
     margin-left: 20vw;
+
+    @media (max-width: 768px) {
+        margin-right: 5vw;
+        margin-left: 5vw;
+    }
+
 `
 
 export const Title = styled.p`
@@ -47,6 +57,10 @@ export const Subtitle = styled.p`
     font-size: 1.5em;
     color: #666;
     margin-bottom: 4vh;
+
+    @media (max-width: 768px) {
+        text-align: center;
+    }
 `;
 
 export const Paragraph = styled.p`
@@ -62,11 +76,16 @@ export const ImageGallery = styled.div`
     gap: 6vh; /* Espaçamento entre as imagens */
     justify-content: center;
     padding-top: 6vh;
-    margin-bottom: 15vh;
+    margin-bottom: 15vh;;
 `;
 
 export const GalleryImage = styled.img`
     width: 100%;
     height: 80vh;
     object-fit: cover;
+
+    @media (max-width: 768px) {
+        height: 35vh;
+        width: 100%;
+    }
 `;

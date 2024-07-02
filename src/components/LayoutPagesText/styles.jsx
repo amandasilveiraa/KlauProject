@@ -78,4 +78,8 @@ export const Images = styled.img`
   height: 50vh; /* Definindo uma altura fixa */
   object-fit: cover;
   object-position: ${({ objectPosition }) => objectPosition || '50% 50%'}; /* Definindo a posição do objeto */
+  
+  @media (max-width: 768px) {
+    height: 40vh;
+  }
 `;
